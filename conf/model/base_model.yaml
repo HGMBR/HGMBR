@@ -1,0 +1,11 @@
+name: ???
+pretrain: False
+pretrain_path: None
+
+embed_pretrain: False
+embed_path: None
+
+emb_dim: 32
+lam: 1e-6
+
+

@@ -1,0 +1,15 @@
+utility/__pycache__/
+__pycache__/
+model/__pycache__/
+weight/
+.idea/
+# ablation.py
+# utility/search2.py
+# utility/search.py
+# utility/evaluate.py
+# model/*.py
+# !model/__init__.py
+#!model/base_model.py
+# !model/HGMBR.py
+# !model/_MBGCN.py
+#!model/Layers.py

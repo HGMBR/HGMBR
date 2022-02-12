@@ -1,0 +1,28 @@
+defaults:
+  - model: HGMBR
+  - data: Tmall
+  - eval: all
+  - optional dataset_pretrain@_here_: ${data}
+  - optional dataset_hyper@_here_: ${data}_${model}
+#  - override hydra/sweeper: optuna
+  - _self_
+
+description: MBRexp
+GPU: [7]
+epoch: 400
+optim: Adam
+loss: BPRLoss
+lr: 0.0003
+batch_size: 2048
+workers: 4
+seed: 42
+
+#hydra:
+#  run:
+#    dir: outputs/${data.name}/${model.name}/${now:%Y%m%d-%H%M%S}
+#  sweep:
+#    dir: search
+#    subdir: ${data.name}/${model.name}/${hydra.job.override_dirname}
+#  sweeper:
+#    n_jobs: 6
+#    direction: maximize

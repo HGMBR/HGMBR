@@ -1,0 +1,8 @@
+name: Tmall
+data_dir: "./data/Tmall"
+
+effective_columns: ['user_id', 'photo_id', 'buy', 'click', 'cart', 'collect']
+desired_action: 'buy'
+num_ng: 1
+
+test_columns: ['user_id', 'photo_id', 'buy', 'click', 'cart', 'collect']

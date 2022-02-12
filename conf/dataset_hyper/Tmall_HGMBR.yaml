@@ -1,0 +1,6 @@
+lr: 1e-4
+model:
+  lam: 1e-4
+  beta: 1e-4
+  mess_dropout: 0.6
+  edge_dropout: 0.4

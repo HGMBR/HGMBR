@@ -1,0 +1,5 @@
+defaults:
+  - base_gnn
+  - _self_
+
+name: MBGCN

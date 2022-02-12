@@ -1,0 +1,9 @@
+defaults:
+  - base_gnn
+  - _self_
+
+name: HGMBR
+
+beta: 0.00
+gamma: 1
+edge_dropout: 0.0

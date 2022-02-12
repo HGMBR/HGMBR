@@ -1,0 +1,4 @@
+mode: all
+batch_size_eval: 1024
+testset_format: AllTestSet
+topK: [ 1,3,5,10 ]

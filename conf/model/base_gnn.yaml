@@ -1,0 +1,8 @@
+defaults:
+  - base_model
+  - _self_
+
+num_layer: 1
+mess_dropout: 0.0
+edge_dropout: 0.0
+embed_pretrain: True

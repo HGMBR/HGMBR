@@ -1,0 +1,5 @@
+mode: sampling
+num_negative_eval: 100
+batch_size_eval: 4096
+testset_format: SamplingTestSet
+topK: [ 1,3,5,10 ]
